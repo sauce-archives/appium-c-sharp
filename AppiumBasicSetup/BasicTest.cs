@@ -16,7 +16,7 @@ namespace AppiumBasicSetup
 		{
 			Console.Write("Setting up the test");
 			DesiredCapabilities capabilities = new DesiredCapabilities();
-			capabilities.SetCapability("testobject_api_key", "09003F0958BB4C1EA05DEF172AF0EBBE");
+			capabilities.SetCapability("testobject_api_key", "YOUR API KEY");
 			capabilities.SetCapability("testobject_device", "Samsung_Galaxy_S6_real");
 			Uri server = new Uri("http://appium.testobject.com/wd/hub");
 
