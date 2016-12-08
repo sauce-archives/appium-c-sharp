@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppiumBasicSetup", "AppiumBasicSetup\AppiumBasicSetup.csproj", "{AFD189D7-607A-4224-AB70-2EA3EA0E0005}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFD189D7-607A-4224-AB70-2EA3EA0E0005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD189D7-607A-4224-AB70-2EA3EA0E0005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD189D7-607A-4224-AB70-2EA3EA0E0005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD189D7-607A-4224-AB70-2EA3EA0E0005}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
