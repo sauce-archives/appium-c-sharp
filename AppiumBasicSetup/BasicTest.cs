@@ -3,6 +3,7 @@ using System;
 using OpenQA.Selenium.Appium.Android;
 using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Appium;
+using System.Net;
 
 namespace AppiumBasicSetup
 {
@@ -14,6 +15,7 @@ namespace AppiumBasicSetup
 		[SetUp()]
 		public void SetUp()
 		{
+			ServicePointManager.SecurityProtocol = SecurityProtocolType.Ssl3 | SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls;
 			Console.Write("Setting up the test");
 			DesiredCapabilities capabilities = new DesiredCapabilities();
 			capabilities.SetCapability("testobject_api_key", "YOUR API KEY");
